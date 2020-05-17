@@ -15,7 +15,7 @@ To help bird identification, I made scripts for scrapping the
 
 ## Rock Creek Park bird checklist
 
-The table is made in Latex using Tykz and a few macros. A python script
+The table is made in Latex using [Tikz](Http://Www.Texample.Net/Tikz/Examples/) and a few macros. A python script
 converts the raw table into Latex. The original table made by the
 National Park Service can be found here [original-table](https://www.nps.gov/rocr/learn/nature/upload/birdchecklist.pdf).
 
@@ -50,8 +50,8 @@ guide. Here is one example page:
 * Manually select which picture we want to use for the identification
   guide. The maximum number is 3. Examples of how to select and final
   selection is in: [Allaboutbirds_select.py](RockCreekPark/allaboutbirds/Allaboutbirds_select.py).
-* Convert content to Latex Tykz commands using
-  [RockCreekPark/allaboutbirds/Allaboutbirds_toLatex.py](RockCreekPark/allaboutbirds/Allaboutbirds_toLatex.py). Here
+* Convert content to Latex [Tikz](Http://Www.Texample.Net/Tikz/Examples/) commands using
+  [Allaboutbirds_toLatex.py](RockCreekPark/allaboutbirds/Allaboutbirds_toLatex.py). Here
   I order birds based on their classification, and classifications
   sorted by average body weight.
 * Compile file

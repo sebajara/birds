@@ -30,11 +30,12 @@ National Park Service can be found here: [original-table](https://www.nps.gov/ro
 
 ## Rock Creek Park Identification Guide
 
-I took all the birds in the Rock Creek Park bird checklist, and scrapped
-their related content in the [Audubon](https://www.audubon.org) and
-[Allaboutbirds](https://www.allaboutbirds.org/) sites,
-and downloaded the pictures they contain to generate a identification
-guide. Here is one example page:
+I scrapped the web pages associated to each bird in the check list in
+the [Audubon](https://www.audubon.org) and
+[Allaboutbirds](https://www.allaboutbirds.org/) sites, and downloaded
+their pictures and some diagrams. Then, I organize them into a mini
+identification helper. Here is one example from the [final
+document](RockCreekPark/allaboutbirds/allaboutbirds_booklet.pdf) page:
 
 ![](RockCreekPark/allaboutbirds/allaboutbirds_booklet-2.png)
 

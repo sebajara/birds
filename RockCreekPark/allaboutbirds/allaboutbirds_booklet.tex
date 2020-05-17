@@ -1,0 +1,108 @@
+\documentclass[letterpaper,landscape]{article} 
+\usepackage[english]{babel}
+\usepackage{natbib} 
+\usepackage[official]{eurosym}
+\usepackage{float} 
+\usepackage[a4paper, margin=0.2in]{geometry}
+
+\usepackage{xstring,xifthen}
+\usepackage{stringstrings}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+
+% general utils
+\newcommand{\comment}[1]{}
+
+% remove page numbers
+\pagenumbering{gobble}
+
+% math
+\usepackage{xfrac}
+\usepackage{amssymb,amsmath,amsfonts,amsthm}
+\newcommand{\parenthesis}[1]{\left(#1\right)}
+
+\usepackage[dvipsnames]{xcolor}
+\usepackage{colortbl}
+
+% figures and tikz
+\usepackage{pgf}
+\usepackage{pgfplots}
+\usepackage{tikz}
+\pgfplotsset{compat=newest}
+\usepgfplotslibrary{polar}
+\usetikzlibrary{fit,calc,arrows,positioning,shapes,decorations.pathreplacing,matrix}
+
+%\newcommand{\algleft}[1]{\begin{flushleft} #1 \end{flushleft}}
+\def\myitembullet{{\tikz\draw[fill=black!50] (0,0) circle (.3ex);}}
+
+\def\iconsize{1cm}
+\def\imgsize{2.9cm}
+%\definecolor{habitat}{rgb}{0.1,0.1,0.8}
+%\definecolor{food}{rgb}{0.3,0.6,0.1}
+%\definecolor{nesting}{rgb}{1,0.6,0.1}
+%\definecolor{behavior}{rgb}{0.8,0,0}
+\definecolor{habitat}{rgb}{0.05,0.05,0.05}
+\definecolor{food}{rgb}{0.05,0.05,0.05}
+\definecolor{nesting}{rgb}{0.05,0.05,0.05}
+\definecolor{behavior}{rgb}{0.05,0.05,0.05}
+\definecolor{conservation}{rgb}{0.1,0.6,0.1}
+\definecolor{background}{rgb}{0.15,0.15,0.15}
+
+\newcommand{\drawart}[3]{%x, y,  filepath
+  \node[inner sep=0pt] () at (#1,#2) {\includegraphics[height=2.6cm]{#3}};
+}
+
+\newcommand{\drawpicture}[4]{%x, y,  filepath, text
+  \node[inner sep=0pt] () at (#1,#2) {\includegraphics[height=\imgsize]{#3}};
+  \node[anchor=base,label=center:{\footnotesize #4}] () at (#1,#2+0.57*\imgsize) {};
+}
+
+\newcommand{\drawicon}[5]{%x, y,  width, color, filepath
+  \begin{scope}[shift={(#1,#2)}]
+    \draw[thick, rounded corners, color=black!50,fill=#4!70] (-0.5*#3,-0.5*#3) rectangle ++(\iconsize,1*#3);
+    \node[inner sep=0pt] () at (0,0) {\includegraphics[height=\iconsize]{#5}};
+  \end{scope}
+}
+
+\newcommand{\drawconsicon}[5]{%x, y,  width, color, filepath
+  \begin{scope}[shift={(#1,#2)}]
+    \node[inner sep=0pt] () at (0,0) {\includegraphics[height=\iconsize]{#5}};
+    \draw[thick, color=black!50] (-0.5*#3,-0.5*#3) rectangle ++(\iconsize,1*#3);
+  \end{scope}
+}
+
+\newcommand{\icontext}[4]{%x, y,  top, bottom
+  \node[anchor=base,label=right:{\footnotesize #3}] () at (#1+0.35*\iconsize,#2+0.3*\iconsize) {};
+  \stringlength[q]{#4}%
+  \ifnum\theresult<20{
+    \node[anchor=base,label=right:{\parbox{2.5cm}{\footnotesize \bf #4}}] () at (#1+0.35*\iconsize,#2-0.1*\iconsize) {};
+  }\else{
+    \node[anchor=base,label=right:{\parbox{2.5cm}{\footnotesize \bf #4}}] () at (#1+0.35*\iconsize,#2-0.28*\iconsize) {};
+  }\fi
+}
+  
+\newcommand{\birdname}[3]{
+  \node[anchor=base,label=center:{\parbox{3.8cm}{\href{#3}{\bf #1}}}] () at (0.1,-11.5) {};
+}
+
+\newcommand{\leftborder}{
+  \draw[color=background,fill=background] (-0.707*\imgsize,0.65*\imgsize) rectangle ++(0.11,-20);
+}
+
+\newcommand{\otherborders}{
+  \draw[color=background,fill=background] (-0.707*\imgsize,0.64*\imgsize) rectangle ++(24.05+3.99,0.11);
+  \draw[color=background,fill=background] (-0.707*\imgsize,-8.2) rectangle ++(24.05+3.99,0.11);
+  \draw[color=background,fill=background] (-0.707*\imgsize,-12.15) rectangle ++(24.05+3.99,0.11);
+  \draw[color=background,fill=background] (-0.707*\imgsize,-18.15) rectangle ++(24.05+3.99,0.11);
+  \draw[color=background,fill=background] (21.89+3.99,0.65*\imgsize) rectangle ++(0.11,-20);
+}
+
+\newcommand{\drawrectangle}[4]{
+  \draw[color=red,fill=red] (#1-0.5*#3,#2-0.5*#4) rectangle ++(#3,#4);
+}
+
+\begin{document}
+
+\include{allaboutbirds_booklet_aux}
+
+\end{document}

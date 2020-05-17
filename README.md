@@ -39,6 +39,11 @@ document](RockCreekPark/allaboutbirds/allaboutbirds_booklet.pdf) page:
 
 ![](RockCreekPark/allaboutbirds/allaboutbirds_booklet-2.png)
 
+The bird drawings are taken from [Audubon](https://www.audubon.org)'s
+site. The bird pictures, as well as the "habitat", "food", "nesting",
+"behavior", and "conservation" diagrams, are taken from the
+[Allaboutbirds](https://www.allaboutbirds.org/)'s site.
+
 ### Instructions:
 * Scrap and download the content from the Audubon site using
   [Audubon_scrap.py](RockCreekPark/audubon/Audubon_scrap.py). For now I

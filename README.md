@@ -5,8 +5,7 @@ The [Rock Creek Park](https://www.nps.gov/rocr/) gives a very useful
 checklist](https://www.nps.gov/rocr/learn/nature/upload/birdchecklist.pdf)
 for us beginners, but the content is not very well organized. I remade
 their table using color and shape coding, and all fit into one
-page. Although I may say may not be the most environmentally friendly if
-you are thinking on printing this everytime.
+page.
 
 To help bird identification, I made scripts for scrapping the
  [Audubon](https://www.audubon.org) and

@@ -7,7 +7,7 @@ for us beginners, but the content is not very well organized. I remade
 their table using color and shape coding, and all fit into one
 page.
 
-To help bird identification, I made scripts for scrapping the
+To help bird identification, I made scripts for scraping the
  [Audubon](https://www.audubon.org) and
  [Allaboutbirds](https://www.allaboutbirds.org/) sites, and organize
  their bird photographs into a booklet. I hope not to be violating any
@@ -30,7 +30,7 @@ National Park Service can be found here: [original-table](https://www.nps.gov/ro
 
 ## Rock Creek Park Identification helper
 
-I scrapped the web pages associated to each bird in the check list in
+I scraped the web pages associated to each bird in the check list in
 the [Audubon](https://www.audubon.org) and
 [Allaboutbirds](https://www.allaboutbirds.org/) sites, and downloaded
 their pictures and some diagrams. Then, I organize them into a mini

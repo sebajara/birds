@@ -2,7 +2,7 @@
 
 ## Rock Creek Park bird checklist
 
-![](RockCreekPark/Birds_RockCreekPark_example.png | width=300)
+![](RockCreekPark/Birds_RockCreekPark_example.png)
 
 ### Instructions:
 * The list of birds as well their regular sighing seasons are saved in an Open Office table: [Birds_RockCreekPark.ods](RockCreekPark/Birds_RockCreekPark.ods)

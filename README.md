@@ -5,6 +5,7 @@
 The table is made in Latex using Tykz and a few macros. A python script
 converts the raw table into Latex. The original table made by the
 National Park Service can be found here
+
 [original-table](https://www.nps.gov/rocr/learn/nature/upload/birdchecklist.pdf).
 
 ![](RockCreekPark/Birds_RockCreekPark_example.png)

@@ -28,7 +28,7 @@ National Park Service can be found here: [original-table](https://www.nps.gov/ro
 * Then the content was arranged manually into columns tables inside another LaTex document [Birds_RockCreekPark.tex](RockCreekPark/Birds_RockCreekPark.tex)
 * Compile (e.g. using pdflatex). See [Birds_RockCreekPark.pdf](RockCreekPark/Birds_RockCreekPark.pdf)
 
-## Rock Creek Park Identification Guide
+## Rock Creek Park Identification helper
 
 I scrapped the web pages associated to each bird in the check list in
 the [Audubon](https://www.audubon.org) and

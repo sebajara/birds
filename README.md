@@ -1,10 +1,12 @@
 # Overview
 
-The Rock Creek Park gives a very useful bird checklist for us beginners,
-but the content is not very well organized. I remade their table using
-color and shape coding, and all fit into one page. Although I may say
-may not be the most environmentally friendly if you are thinking on
-printing this everytime.
+The [Rock Creek Park](https://www.nps.gov/rocr/) gives a very useful
+[bird
+checklist](https://www.nps.gov/rocr/learn/nature/upload/birdchecklist.pdf)
+for us beginners, but the content is not very well organized. I remade
+their table using color and shape coding, and all fit into one
+page. Although I may say may not be the most environmentally friendly if
+you are thinking on printing this everytime.
 
 To help bird identification, I made scripts for scrapping the
  [Audubon](https://www.audubon.org) and
@@ -17,7 +19,7 @@ To help bird identification, I made scripts for scrapping the
 
 The table is made in Latex using [Tikz](Http://Www.Texample.Net/Tikz/Examples/) and a few macros. A python script
 converts the raw table into Latex. The original table made by the
-National Park Service can be found here [original-table](https://www.nps.gov/rocr/learn/nature/upload/birdchecklist.pdf).
+National Park Service can be found here: [original-table](https://www.nps.gov/rocr/learn/nature/upload/birdchecklist.pdf).
 
 ![](RockCreekPark/Birds_RockCreekPark_example.png)
 

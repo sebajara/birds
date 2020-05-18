@@ -2,17 +2,20 @@
 
 The [Rock Creek Park](https://www.nps.gov/rocr/) gives a very useful
 [bird
-checklist](https://www.nps.gov/rocr/learn/nature/upload/birdchecklist.pdf)
-for us beginners, but the content is not very well organized. I remade
-their table using color and shape coding, and all fit into one
-page.
+checklist](https://www.nps.gov/rocr/learn/nature/upload/birdchecklist.pdf). I
+remade their table fit into one page checklist, and using color and
+shape coding, which in my opinion makes it easier to use.
 
-To help bird identification, I made scripts for scraping the
- [Audubon](https://www.audubon.org) and
- [Allaboutbirds](https://www.allaboutbirds.org/) sites, and organize
- their bird photographs into a booklet. I hope not to be violating any
- copywrite issues by publishing here the final pdf. In case I do, please
- let me know and I will remove the final product.
+One thing I constantly have troubles is having a quick reference to help
+me identify birds. Some of the current phone apps are very good, but for
+memorizing I find easier to have a booklet. So I decided to scrap
+the content from [Audubon](https://www.audubon.org) and
+[Allaboutbirds](https://www.allaboutbirds.org/) sites, and organize them
+into a booklet for the birds in the [Rock Creek Park
+checklist](https://www.nps.gov/rocr/learn/nature/upload/birdchecklist.pdf). I
+hope not to be violating any copywrite issues by publishing here the
+[final pdf](RockCreekPark/Birds_RockCreekPark.pdf). In case I do, please
+let me know and I will remove the final product.
 
 ## Rock Creek Park bird checklist
 

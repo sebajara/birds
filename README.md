@@ -8,8 +8,8 @@ shape coding, which in my opinion makes it easier to use.
 
 One thing I constantly have troubles is having a quick reference to help
 me identify birds. Some of the current phone apps are very good, but for
-memorizing I find easier to have a booklet. So I decided to scrap
-the content from [Audubon](https://www.audubon.org) and
+memorizing I find easier to have a booklet. So I decided to scrap the
+content from [Audubon](https://www.audubon.org) and
 [Allaboutbirds](https://www.allaboutbirds.org/) sites, and organize them
 into a booklet for the birds in the [Rock Creek Park
 checklist](https://www.nps.gov/rocr/learn/nature/upload/birdchecklist.pdf). I
@@ -37,10 +37,10 @@ I scraped the web pages associated to each bird in the check list in
 the [Audubon](https://www.audubon.org) and
 [Allaboutbirds](https://www.allaboutbirds.org/) sites, and downloaded
 their pictures and some diagrams. Then, I organize them into a mini
-identification helper. Here is one example from the [final
-document](RockCreekPark/allaboutbirds/allaboutbirds_booklet.pdf) page:
+identification helper. Here is an example page from the [final
+document](RockCreekPark/allaboutbirds/allaboutbirds_booklet.pdf):
 
-![](RockCreekPark/allaboutbirds/allaboutbirds_booklet-2.png)
+![](RockCreekPark/allaboutbirds/allaboutbirds_booklet-15.png)
 
 The bird drawings are taken from [Audubon](https://www.audubon.org)'s
 site. The bird pictures, as well as the "habitat", "food", "nesting",

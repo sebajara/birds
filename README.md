@@ -13,7 +13,7 @@ content from [Audubon](https://www.audubon.org) and
 [Allaboutbirds](https://www.allaboutbirds.org/) sites, and organize them
 into a booklet for the birds in the [Rock Creek Park
 checklist](https://www.nps.gov/rocr/learn/nature/upload/birdchecklist.pdf). I
-hope not to be violating any copywrite issues by publishing here the
+hope not to be violating any copy-write issues by publishing here the
 [final pdf](RockCreekPark/Birds_RockCreekPark.pdf). In case I do, please
 let me know and I will remove the final product.
 
@@ -67,7 +67,7 @@ and "conservation" diagrams, are taken from the
   sorted by average body weight.
 * Compile file
   [allaboutbirds_booklet.tex](RockCreekPark/allaboutbirds/allaboutbirds_booklet.tex)
-  into a pdf. **NOTE:** by mistake I am adding the ouside frame with
-  default widht, so the last page has two empty extra white
-  columns. Need to fix this.
+  into a pdf. **NOTE:** by mistake I am adding the outside frame with
+  a default width, so the last page has two empty extra white
+  columns.
 * The full pdf is in: [allaboutbirds_booklet.pdf](RockCreekPark/allaboutbirds/allaboutbirds_booklet.pdf)

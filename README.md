@@ -42,9 +42,10 @@ document](RockCreekPark/allaboutbirds/allaboutbirds_booklet.pdf):
 
 ![](RockCreekPark/allaboutbirds/allaboutbirds_booklet-15.png)
 
-The bird drawings are taken from [Audubon](https://www.audubon.org)'s
-site. The bird pictures, as well as the "habitat", "food", "nesting",
-"behavior", and "conservation" diagrams, are taken from the
+Note the resolution was reduced for making this example page. The bird
+drawings are taken from [Audubon](https://www.audubon.org)'s site. The
+bird pictures, as well as the "habitat", "food", "nesting", "behavior",
+and "conservation" diagrams, are taken from the
 [Allaboutbirds](https://www.allaboutbirds.org/)'s site.
 
 ### Instructions:

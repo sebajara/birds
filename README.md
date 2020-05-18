@@ -19,11 +19,21 @@ let me know and I will remove the final product.
 
 ## Rock Creek Park bird checklist
 
-The table is made in Latex using [Tikz](Http://Www.Texample.Net/Tikz/Examples/) and a few macros. A python script
-converts the raw table into Latex. The original table made by the
-National Park Service can be found here: [original-table](https://www.nps.gov/rocr/learn/nature/upload/birdchecklist.pdf).
+The original table made by the
+National Park Service can be found here:
+[original-table](https://www.nps.gov/rocr/learn/nature/upload/birdchecklist.pdf). I
+remade the table (see
+[Birds_RockCreekPark.pdf](RockCreekPark/Birds_RockCreekPark.pdf)) with
+LaTex using [Tikz](Http://Www.Texample.Net/Tikz/Examples/) and a few
+macros. A python script converts the raw table into Latex.
 
 ![](RockCreekPark/Birds_RockCreekPark_example.png)
+
+Instead of naming months by letters I am using numbers (1-12). Also, I
+am using colors for coding sighting frequency categories: "unknown"
+(white), "common" (green), "uncommon" (yellow), "rare" (red). Negative
+sighting is coded with full black. Finally, nesting sighting is marked
+by coloring using a circle instead of the regular square.
 
 ### Instructions:
 * The list of birds as well their regular sighing seasons are saved in an Open Office table: [Birds_RockCreekPark.ods](RockCreekPark/Birds_RockCreekPark.ods)
